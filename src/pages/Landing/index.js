@@ -15,9 +15,9 @@ import logoImg from '../../assets/images/slogan_home.png';
               <img src={logoImg} alt="Logo APAA"/>
           </div>
 
-          <div className="text">
+          <div className="apaa">
             <h1>A.P.A.A</h1>
-            <h4>Associação de Pais e Amigos dos Autistas</h4>
+            <h3>Associação de Pais e Amigos dos Autistas</h3>
             <h4>Dom Pedrito / RS</h4>
           </div>
 

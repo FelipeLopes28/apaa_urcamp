@@ -14,15 +14,91 @@
 }
 
 .logo-container {
+  width: 100%;
   text-align: center;
   margin-bottom: 3.2rem;
 }
 
-.text h1{
-  font-weight: 500;
-  font-size: 2.4rem;
+.apaa h1{
+  color: #182B8E;
+  text-align: center;
+  font-weight: 800;
+  font-size: 10rem;
+  margin-top: -2.9rem;
+  margin-bottom: 0.01rem;
 }
 
+.apaa h3{
+  color: #4147C0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.9rem;
+  margin-top: -2.1rem;
+}
+
+.apaa h4{
+  color: #182B8E;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.9rem;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  margin: 3.2rem 0;
+}
+
+.button-container a{
+  width: 20rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-right: 1.6rem;
+  font: 500 3.0rem Acme;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+  color: #4147C0;
+
+  transition: background-color 0.5s;
+}
+
+.button-container a.visite{
+  background: #EFCA32;
+}
+
+.button-container a.visite:hover{
+  background: #EFCA42;
+}
+
+@media (min-width: 1100px){
+  #page-landing-content{
+    max-width: 1100px;
+
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+      "apaa logo"
+      "button"
+    ;
+  }
+
+  .apaa{
+    grid-area: apaa;
+  }
+
+  .logo-container{
+    grid-area: logo;
+  }
+
+  .button-container{
+    grid-area: button;
+  }
+}
 /* // import styled from 'styled-components';
 
 // export const Container = styled.div`

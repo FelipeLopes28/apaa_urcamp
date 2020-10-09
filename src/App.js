@@ -3,11 +3,12 @@ import './assets/styles/global.css';
 
 // import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 // import Home from './pages/home';
-import Landing from './pages/Landing';
+
+import Routes from './routes';
 
 function App() {
   return (
-    <Landing/>
+    <Routes />
   );
 }
 

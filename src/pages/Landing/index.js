@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles.css';
+
+import { Link } from 'react-router-dom'
 // import '../../assets/styles/global.css';
 //import {Container} from './styles';
 import logoImg from '../../assets/images/slogan_home.png';
@@ -22,9 +24,9 @@ import logoImg from '../../assets/images/slogan_home.png';
           </div>
 
           <div className="button-container">
-            <a href="" className="visite">
+            <Link to="/home" className="visite">
               Visite-nos
-            </a>
+            </Link>
           </div>
 
         </div>

@@ -1,5 +1,5 @@
-#page-home{
-    width: 100vw;;
+#page-home {
+    width: 100vw;
     height: 100vh;
 }
 
@@ -24,7 +24,14 @@
     text-decoration: none;
     color: #FFF;
     transition: opacity 0.2s;
+
+    display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.page-header .top-bar-container a img{
+    margin-right: 0.3rem;
 }
 
 .page-header .top-bar-container a:hover {
@@ -37,8 +44,8 @@
     margin-left: 3.2rem;
 } 
 
-.page-header .top-bar-container img face{
-    margin-right: .2rem;
+.page-header .top-bar-container .face {
+    margin-right: 4rem;
 } 
 
 .page-header .header-content {
@@ -50,7 +57,7 @@
     background-color: #2D9CDB;    
 }
 
-.page-header .header-content strong{
+.page-header .header-content strong {
     width: 90%;
     display: flex;
     margin: 0 auto;
@@ -58,12 +65,18 @@
     align-items: center;
 }
 
+.page-header .header-content .logo {
+    width: 9rem;
+    height: 10rem;
+    margin-top: 1rem;
+}
+
 .page-header .header-content img {
     height: 3.5rem;
     align-items: center;
 }
 
-.buttons-container{
+.buttons-container {
     align-items: center;
     width: 90%;
     margin: 0 auto;
@@ -72,19 +85,21 @@
     background-color: #2D9CDB;
 }
 
-.buttons-container a{
-    
+.buttons-container a {    
     text-decoration: none;
-    margin: 2rem;
+    margin: 3rem;
+
+    display: flex;
+    align-items: center;
 }
 
-.buttons-container a.home{
+.buttons-container a .home {
     width: 15rem;
     height: 3rem;
     border-radius: 0.5rem;
     margin-top: 5rem;
     margin-right: 0.5rem;
-    font: 500 3.0rem Acme;
+    font: 700 3.0rem Acme;
 
     display: flex;
     align-items: center;
@@ -97,11 +112,11 @@
     transition: background-color 0.2s;
 }
 
-.buttons-container a.home:hover{
+.buttons-container a.home:hover {
     background: #5CB829;
 }
 
-.buttons-container a.events{
+.buttons-container a.events {
     width: 15rem;
     height: 3rem;
     border-radius: 0.5rem;
@@ -120,11 +135,11 @@
     transition: background-color 0.2s;
 }
 
-.buttons-container a.events:hover{
+.buttons-container a.events:hover {
     background: #CFC207;
 }
 
-.buttons-container a.contact{
+.buttons-container a.contact {
     width: 15rem;
     height: 3rem;
     border-radius: 0.5rem;
@@ -143,6 +158,6 @@
     transition: background-color 0.2s;
 }
 
-.buttons-container a.contact:hover{
+.buttons-container a.contact:hover {
     background: #B61C0B;
 }

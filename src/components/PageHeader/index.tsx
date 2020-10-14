@@ -6,6 +6,8 @@ import imgFacebook from '../../assets/images/facebook.svg';
 import imgLetras from '../../assets/images/letras.svg';
 import logoSlogan from '../../assets/images/slogan_home.png'
 
+import './styles.css';
+
 function PageHeader() {
   return (
     <header className="page-header">
@@ -14,9 +16,11 @@ function PageHeader() {
                 <img src={imgEmail} alt="Contato"/>
                 contato.apaadp@gmail.com
             </Link>
-            <Link to="http://www.facebook.com">
-                <img src={imgFacebook} alt="Facebook" className="face"/>
-            </Link>
+            <a target="_blank" 
+               rel = "noopener noreferrer" 
+               href="https://www.facebook.com/apaa.dp">
+               <img src={imgFacebook} alt="Facebook" className="face"/>
+            </a>
           </div>
 
           <div className="header-content">
@@ -36,10 +40,7 @@ function PageHeader() {
               <Link to="/contact" className="contact">
                 Contato
               </Link>
-            </div>
-            
-          
-        
+          </div>       
     </header>
 
   );

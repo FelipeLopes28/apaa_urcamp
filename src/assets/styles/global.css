@@ -30,8 +30,10 @@ textarea{
 }
 
 .container {
+  height: 100%;
   width: 90vw;
   max-width: 700px;
+  background: #7EC9F3;
 }
 
 @media (min-width: 700px) {

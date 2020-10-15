@@ -3,8 +3,20 @@
     height: 100vh;
 }
 
+#page-events main {    
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+
 @media (min-width: 700px){
     #page-events{
         max-width: 100%;
     }
+
+    #page-events main{
+        padding: 3.2rem 0;
+        max-width: 740px;
+        margin: 2 auto;
+    } 
 }

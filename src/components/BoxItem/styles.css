@@ -1,0 +1,30 @@
+.box-item {
+  background: #31ADF3;
+  border: 1px solid #31ADF3;
+  border-radius: 0.8rem;
+  margin-top: 2.4rem;
+  overflow: hidden;
+}
+
+.box-item header{
+  padding: 0rem 2rem;
+  display: flex;
+}
+
+.box-item header div strong{
+  font: 400 4rem Acme;
+  color: #1B39D3;
+}
+
+.box-item p{
+  text-align: justify;
+  padding: 0 2rem;
+  font: 400 1.6rem Acme;
+  color: #FFF;
+  margin-bottom: 0.5rem;
+}
+
+
+@media (min-width: 700px){
+  
+}

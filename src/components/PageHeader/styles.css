@@ -210,5 +210,20 @@
   .page-header .top-bar-container .face {
     margin-right: 22rem;
   } 
+
+  .buttons-container a.home{
+    width: 15rem;
+    height: 4rem;
+  }
+
+  .buttons-container a.events{
+    width: 15rem;
+    height: 4rem;
+  }
+
+  .buttons-container a.contact{
+    width: 15rem;
+    height: 4rem;
+  }
   
 }

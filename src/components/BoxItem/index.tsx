@@ -4,6 +4,7 @@ import './styles.css'
 
 interface BoxItemProps{
   title: string;
+  color?: string;
   paragraph1: string;
   paragraph2?: string;
   paragraph3?: string;

@@ -12,7 +12,7 @@ import logoImg from '../../assets/images/slogan_home.png';
   return (
    // <Container>
       <div id="page-landing">
-        <div id="page-landing-content" className="container">
+        <div id="page-landing-content">
           <div className="logo-container">
               <img src={logoImg} alt="Logo APAA"/>
           </div>

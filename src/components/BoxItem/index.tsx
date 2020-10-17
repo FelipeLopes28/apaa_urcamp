@@ -23,6 +23,7 @@ const BoxItem: React.FC<BoxItemProps> = (props) => {
           <p> {props.paragraph2}</p>
           <p> {props.paragraph3}</p>
           <p> {props.paragraph4}</p>
+          {props.children}
     </article>
   )
 }

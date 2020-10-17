@@ -1,6 +1,5 @@
 .box-item {
   background: #31ADF3;
-  border: 1px solid #31ADF3;
   border-radius: 0.8rem;
   margin-top: 2.4rem;
   overflow: hidden;
@@ -13,7 +12,7 @@
 
 .box-item header div strong{
   font: 400 4rem Acme;
-  color: #1B39D3;
+  color: #FDEF3E;
 }
 
 .box-item p{
@@ -26,5 +25,7 @@
 
 
 @media (min-width: 700px){
-  
+  .box-item p{
+    font: 400 1.8rem Acme;
+  }
 }

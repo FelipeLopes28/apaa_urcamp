@@ -9,6 +9,11 @@
     width: 90%;
 }
 
+.box-item header div strong .title{
+    font: 400 4rem Acme;
+    color: #FDEF;
+  }
+
 @media (min-width: 700px){
     #page-home{
         max-width: 100%;

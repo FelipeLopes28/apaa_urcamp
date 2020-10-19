@@ -15,7 +15,7 @@ function Contact() {
        
        <main>
          <BoxItem
-         title="Contato"
+          title="Contato"
           paragraph1="&nbsp;&nbsp;&nbsp;&nbsp;Entre em contato conosco através do formulário abaixo ou 
           mande-nos um e-mail para contato.apaadp@gmail.com. Responderemos o 
           mais breve possível ;D.">

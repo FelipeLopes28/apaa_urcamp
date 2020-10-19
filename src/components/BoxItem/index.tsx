@@ -11,6 +11,7 @@ interface BoxItemProps{
   paragraph4?: string;
 }
 
+
 const BoxItem: React.FC<BoxItemProps> = (props) => {
   return(
     <article className="box-item">

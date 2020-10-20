@@ -17,7 +17,7 @@ function FooterItem(){
                   alt="LogoSI" 
                   className="LogoSI"/>
           </strong>
-        </footer>
+    </footer>
   )
 }
 

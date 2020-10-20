@@ -14,6 +14,13 @@
     width: 90%;
 }
 
+#page-events .box-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
 #page-events .box-video a{
     display: flex;
     align-items: center;

@@ -8,6 +8,7 @@ import styled from 'styled-components';
    justify-content: center;
    align-items: center;
    font-family: 'Acme';
+   background: white;
 
   .first-line {
       width: 100%;

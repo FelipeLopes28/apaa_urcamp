@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "node server",
-    "postinstall": "yarn build",
+    "postinstall": "npn run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

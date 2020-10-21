@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-player": "^2.6.2",
@@ -17,7 +19,8 @@
     "video-react": "^0.14.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server",
+    "postinstall": "yarn build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

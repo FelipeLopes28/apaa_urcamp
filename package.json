@@ -19,8 +19,7 @@
     "video-react": "^0.14.1"
   },
   "scripts": {
-    "start": "node server",
-    "postinstall": "npn run build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

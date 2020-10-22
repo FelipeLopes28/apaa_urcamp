@@ -13,10 +13,6 @@ html, body, #root {
   height: 100vh;
 }
 
-body {
-  background: white;
-}
-
 #root {
   display: flex;
   align-items: center;

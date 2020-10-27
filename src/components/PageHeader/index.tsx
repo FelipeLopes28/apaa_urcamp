@@ -14,7 +14,7 @@ function PageHeader() {
           <div className="top-bar-container">
             <Link to="/contact">
                 <img src={imgEmail} alt="Contato"/>
-                contato@apaadp.com.br
+                apaadp@gmail.com
             </Link>
             <a target="_blank" 
                rel = "noopener noreferrer" 

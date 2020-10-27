@@ -25,7 +25,7 @@ function PageHeader() {
 
           <div className="header-content">
             <strong>
-                <img src={imgLetras} alt="Letreiro"/>
+                <img src={imgLetras} alt="Letreiro" className="letreiro"/>
                 <img src={logoSlogan} alt="Logo" className="logo"/>
             </strong>
 

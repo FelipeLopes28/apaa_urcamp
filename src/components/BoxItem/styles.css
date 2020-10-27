@@ -21,12 +21,12 @@
   padding: 0 2rem;
   font: 400 1.6rem Acme;
   color: #FFF;
-  margin-bottom: 0.5rem;
 }
 
 
 @media (min-width: 700px){
   .box-item p{
     font: 400 1.8rem Acme;
+    margin-bottom: 1rem;
   }
 }

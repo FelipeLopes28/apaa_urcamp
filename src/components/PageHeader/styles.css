@@ -61,11 +61,15 @@
 }
 
 .page-header .header-content .logo {
-  width: 12rem;
-  height: 14rem;
+  width: 10rem;
+  height: 12rem;
   margin-left: 2rem;
   margin-right: 1rem;
   margin-top: 1rem;
+}
+
+.page-header .header-content .letreiro{
+  width: 25rem;
 }
 
 .page-header .header-content img {
@@ -188,6 +192,10 @@
     margin-left: 10rem;
     margin-right: 10rem;
     margin-top: 1rem;
+  }
+
+  .page-header .header-content .letreiro{
+    width: 40rem;
   }
 
   .page-header .header-content strong {

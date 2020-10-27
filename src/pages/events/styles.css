@@ -18,18 +18,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem;
-}
-
-#page-events .box-video a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#page-events .box-video a img{
-     width: 90%;
-     margin-bottom: 1rem;
+    margin-bottom: -7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 @media (min-width: 700px){
@@ -42,4 +33,8 @@
         max-width: 740px;
         margin: 2 auto;
     } 
+
+    #page-events .box-video{
+        margin-bottom: 1rem;
+    }
 }

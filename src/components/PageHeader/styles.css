@@ -77,16 +77,19 @@
   align-items: center;
 }
 
-.buttons-container {
-  align-items: center;
+.buttons-container {  
   width: 100%;
   margin: 0 auto;
+
   padding-top: 1rem;
   padding-bottom: 1rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
+
   display: flex;
+  align-items: center;
   justify-content: space-around;
+
   background-color: #2D9CDB;
 }
 
@@ -201,19 +204,15 @@
     margin-right: 22rem;
   } 
 
-  .buttons-container a.home{
+  .buttons-container{
+    justify-content: center;
+  }
+
+  .buttons-container a{
+    margin: 0 5rem;
     width: 15rem;
     height: 4rem;
   }
 
-  .buttons-container a.events{
-    width: 15rem;
-    height: 4rem;
-  }
-
-  .buttons-container a.contact{
-    width: 15rem;
-    height: 4rem;
-  }
   
 }

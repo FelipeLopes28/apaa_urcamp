@@ -3,9 +3,9 @@ import { BrowserRouter, Route} from 'react-router-dom';
 
 
 import Landing from './pages/Landing';
-import Home from './pages/home';
-import Events from './pages/events';
-import Contact from './pages/contact';
+import Home from './pages/Home';
+import Events from './pages/Events';
+import Contact from './pages/Contact';
 
 function Routes() {
     return (

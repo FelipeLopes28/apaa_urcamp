@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import imgEmail from '../../assets/images/email.svg';
 import imgFacebook from '../../assets/images/facebook.svg';
+import imgInstagram from '../../assets/images/instagram.svg';
 import imgLetras from '../../assets/images/letras.svg';
 import logoSlogan from '../../assets/images/slogan_home.png'
 
@@ -17,9 +18,14 @@ function PageHeader() {
                 apaadp@gmail.com
             </Link>
             <a target="_blank" 
-               rel = "noopener noreferrer" 
+               rel ="noopener noreferrer" 
                href="https://www.facebook.com/apaa.dp">
                <img src={imgFacebook} alt="Facebook" className="face"/>
+            </a>
+            <a target="_blank" 
+               rel ="noopener noreferrer" 
+               href="https://www.instagram.com/apaadp/">
+               <img src={imgInstagram} alt="Instagram" className="insta"/>
             </a>
           </div>
 

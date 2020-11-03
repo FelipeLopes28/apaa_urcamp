@@ -2,7 +2,7 @@ import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
 import FooterItem from '../../components/FooterItem';
-import Form from '../../components/Form';
+import Map from '../../components/Map';
 
 
 import './styles.css';
@@ -16,10 +16,10 @@ function Contact() {
        <main>
          <BoxItem
           title="Contato"
-          paragraph1="&nbsp;&nbsp;&nbsp;&nbsp;Entre em contato conosco através do formulário abaixo ou 
-          mande-nos um e-mail para contato.apaadp@gmail.com. Responderemos o 
-          mais breve possível ;D.">
-            <Form />
+          paragraph1="&nbsp;&nbsp;&nbsp;&nbsp;Envie uma mensagem pra gente pelo 
+          número abaixo ou um e-mail para apaadp@gmail.com. 
+          Responderemos o mais breve possível ;D.">
+            <Map />
          </BoxItem>
          
        </main>

@@ -38,7 +38,6 @@ function Events() {
                 />  
             </div>
          </BoxItem>
-
        </main>
 
       <div>

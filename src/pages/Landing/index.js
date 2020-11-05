@@ -19,7 +19,7 @@ import logoImg from '../../assets/images/slogan_home.png';
       </div>  
       <button>
           <Link to={"/home"}>
-            Visite-nos
+            Acessar Site
           </Link>
       </button> 
     </Container>

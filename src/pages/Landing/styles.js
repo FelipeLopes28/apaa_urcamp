@@ -92,7 +92,7 @@ import styled from 'styled-components';
      height: 66px;
      
       a {
-       font-size: 70px;
+       font-size: 65px;
        text-decoration: none;
       }
     }

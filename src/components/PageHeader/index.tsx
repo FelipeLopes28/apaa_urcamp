@@ -21,13 +21,15 @@ function PageHeader() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.facebook.com/apaa.dp">
+            href="https://www.facebook.com/apaa.dp"
+          >
             <img src={imgFacebook} alt="Facebook" className="face" />
           </a>
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.instagram.com/apaadp/">
+            href="https://www.instagram.com/apaadp/"
+          >
             <img src={imgInstagram} alt="Instagram" className="insta" />
           </a>
         </div>

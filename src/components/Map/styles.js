@@ -1,38 +1,25 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
- display: flex;
- flex-direction: column;
- width: 100%;
- align-items: flex-start;
- color: #E4E4E4;
- margin-bottom: 1rem;
+export const MapBox = styled.div`
+  margin: 2rem 0rem 20rem 1rem;
+  justify-content: center;
 
-  h4 {
-    margin-top: 1rem;
-    margin-left: 3rem;
-  }
+  .leaflet-container {
+    width: 77%;
+    height: 20vh;
 
-  p {
-    margin-left: 2rem;
-  }
+    @media (min-width: 600px){
+      width: 80%;
 
-  @media (min-width: 700px){
-    flex-direction: row;
-
-    p {
-      margin-left: 1rem;
     }
 
-    .address{
-      width: 28rem;
+    @media (min-width: 700px){
+      width: 82%;
+
     }
 
-    .opening_hours{
-      width: 26rem;
-      margin-left: 1rem;
+    @media (min-width: 900px){
+      width: 39.5%;
     }
-  }
-
-  
+}
 `;

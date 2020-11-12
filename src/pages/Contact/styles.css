@@ -3,9 +3,10 @@
     height: 100vh;
 }
 
-#page-contact main {    
+#page-contact main {
     margin: 3.2rem auto;
     width: 90%;
+    height: 60%;
 }
 
 @media (min-width: 700px){
@@ -17,5 +18,5 @@
         padding: 3.2rem 0;
         max-width: 740px;
         margin: 2 auto;
-    } 
+    }
 }

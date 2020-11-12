@@ -1,39 +1,51 @@
 import React from 'react';
-import { Container } from './styles';
+import { MapBox } from './styles';
+import { MapContainer, Marker, TileLayer } from 'react-leaflet';
+import Leaflet from 'leaflet';
+
+import 'leaflet/dist/leaflet.css';
+
+import mapMarkerImg from '../../assets/images/map-marker.svg'
+
+const mapIcon = Leaflet.icon({
+  iconUrl: mapMarkerImg,
+  iconSize: [28, 38],
+  iconAnchor: [14, 38],
+  popupAnchor: [80, 2]
+})
 
 function Map() {
-
   return (
-    <Container>
-      <div className="address">
-        <h4>Endereço:</h4>
-        <p>
-          Rua Moreira César, 1046, Prédio do INSS,
-          segundo piso - Centro.
-          Dom Pedrito - RS, 96450-000.
-              </p>
-      </div>
-      <div className="telephone">
-        <h4>Telefone:</h4>
-        <p>
-          (53) 9.9910.8065
-            </p>
-      </div>
-      <div className="opening_hours">
-        <h4>Horário de atendimento:</h4>
-        <p>
-          Segundas, quartas e sextas
-          das 14h às 17h.
-            </p>
-      </div>
+    <MapBox>
 
-      {/* <div className="map">
-        <h4>Mapa aqui</h4>
-      </div> */}
+      <MapContainer
+        center={[-30.9794647,-54.6715319]}
+        zoom={19}
+        dragging={false}
+        touchZoom={false}
+        zoomControl={false}
+        scrollWheelZoom={false}
+        doubleClickZoom={false}
+        style={{
+          border: '1px solid #7EC9F3',
+          borderRadius: '8px',
+          position: 'absolute',
+          marginLeft: '2rem',
+        }}
+      >
+        <TileLayer
+          url={`https://api.mapbox.com/styles/v1/mapbox/outdoors-v11/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
+        />
+        <Marker
+          icon={mapIcon}
+          interactive={false}
+          position={[-30.9794647,-54.6715319]}>
+        </Marker>
+      </MapContainer>
 
-    </Container>
-  );
+    </MapBox>
+
+  )
 }
 
 export default Map;
-

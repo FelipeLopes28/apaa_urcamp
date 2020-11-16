@@ -14,12 +14,14 @@ const mapIcon = Leaflet.icon({
   popupAnchor: [80, 2]
 })
 
+const position = [-30.9794647,-54.6715319]
+
 function Map() {
   return (
     <MapBox>
 
       <MapContainer
-        center={[-30.9794647,-54.6715319]}
+        center={position}
         zoom={19}
         dragging={false}
         touchZoom={false}
@@ -40,7 +42,7 @@ function Map() {
         <Marker
           icon={mapIcon}
           interactive={false}
-          position={[-30.9794647,-54.6715319]}>
+          position={position}>
         </Marker>
       </MapContainer>
 

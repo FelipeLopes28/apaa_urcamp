@@ -27,11 +27,11 @@ function Map() {
         scrollWheelZoom={false}
         doubleClickZoom={false}
         style={{
-          width: '75vw',
+          width: '79vw',
           height: '20vh',
           border: '1px solid #7EC9F3',
           borderRadius: '8px',
-          marginLeft: '2rem',
+          marginLeft: '1rem',
         }}
       >
         <TileLayer

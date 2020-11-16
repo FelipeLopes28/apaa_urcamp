@@ -10,23 +10,27 @@ export const Container = styled.div`
 
   h4 {
     margin-top: 1rem;
-    margin-left: 3rem;
-  }
-
-  p {
     margin-left: 2rem;
   }
+
+  /* p {
+    margin-left: 0rem;
+  } */
+
+  /* .address{
+      width: 33.5rem;
+    } */
 
   .rote_maps{
     border-radius: 0.8rem;
     align-items: center;
     text-align: center;
-    width: 75vw;
+    width: 79vw;
     height: 3.2vh;
     background: #92fc57;
     z-index: 2;
     margin-top: -22rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 
   .rote_maps a{
@@ -43,7 +47,7 @@ export const Container = styled.div`
     flex-direction: column;
 
     p {
-      margin-left: 1rem;
+      margin-left: 0rem;
     }
 
     .information{
@@ -52,11 +56,12 @@ export const Container = styled.div`
     }
     .address{
       width: 28rem;
+      margin-right: 2rem;
     }
 
     .opening_hours{
       width: 26rem;
-      margin-left: 1rem;
+      margin-left: 2rem;
     }
 
     .location_map{
@@ -66,7 +71,6 @@ export const Container = styled.div`
     .rote_maps{
       width: 39.2vw;
       height: 3vh;
-      /* margin-top: -3rem; */
     }
 
   }`;

@@ -5,21 +5,9 @@ export const MapBox = styled.div`
   justify-content: center;
 
   .leaflet-container {
-    /* width: 120vw;
-    height: 20vh; */
-
-    @media (min-width: 600px){
-      width: 80%;
+    /* width: 40vw;
+    height: 30vh; */
 
     }
 
-    @media (min-width: 700px){
-      width: 82%;
-
-    }
-
-    @media (min-width: 900px){
-      width: 39.5%;
-    }
-}
 `;

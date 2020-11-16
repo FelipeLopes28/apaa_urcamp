@@ -18,7 +18,7 @@
 
 .box-item p{
   text-align: justify;
-  padding: 0 2rem;
+  padding: 0rem 2rem 0rem 2rem;
   font: 400 1.6rem Acme;
   color: #FFF;
 }

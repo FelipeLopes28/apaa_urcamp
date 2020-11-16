@@ -27,9 +27,10 @@ function Map() {
         scrollWheelZoom={false}
         doubleClickZoom={false}
         style={{
+          width: '75vw',
+          height: '20vh',
           border: '1px solid #7EC9F3',
           borderRadius: '8px',
-          position: 'absolute',
           marginLeft: '2rem',
         }}
       >

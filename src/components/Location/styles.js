@@ -18,15 +18,14 @@ export const Container = styled.div`
   }
 
   .rote_maps{
-    position: absolute;
     border-radius: 0.8rem;
     align-items: center;
     text-align: center;
-    width: 74.6vw;
-    height: 2.8vh;
+    width: 75vw;
+    height: 3.2vh;
     background: #92fc57;
     z-index: 2;
-    margin-top: 34.5rem;
+    margin-top: -22rem;
     margin-left: 3rem;
   }
 
@@ -66,7 +65,8 @@ export const Container = styled.div`
 
     .rote_maps{
       width: 39.2vw;
-      margin-top: 28rem;
+      height: 3vh;
+      /* margin-top: -3rem; */
     }
 
   }`;

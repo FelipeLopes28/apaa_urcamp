@@ -5,8 +5,8 @@ export const MapBox = styled.div`
   justify-content: center;
 
   .leaflet-container {
-    width: 77%;
-    height: 20vh;
+    /* width: 120vw;
+    height: 20vh; */
 
     @media (min-width: 600px){
       width: 80%;

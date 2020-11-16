@@ -30,10 +30,10 @@ function Location() {
         </div>
       </div>
       <div className="location_map">
-        <Map></Map>
+        <Map/>
       </div>
       <footer className="rote_maps">
-        <a target="_blank" rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=-30.9794647,-54.6715319`}>Ver rota no Google Maps</a>
+        <a target="_blank" rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=-30.9794647,-54.6715319`}>Ver rotas no Google Maps</a>
       </footer>
 
     </Container>

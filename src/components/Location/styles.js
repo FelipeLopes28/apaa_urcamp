@@ -22,14 +22,14 @@ export const Container = styled.div`
 
   img {
     border-radius: 1rem;
-    width: 79vw;
+    width: 94%;
   }
 
   .rote_maps {
     border-radius: 0.9rem;
     align-items: center;
     text-align: center;
-    width: 79vw;
+    width: 89.5%;
     height: 3.2vh;
     background: #92fc57;
     z-index: 2;

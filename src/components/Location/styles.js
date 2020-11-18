@@ -22,15 +22,14 @@ export const Container = styled.div`
 
   img {
     border-radius: 1rem;
-    width: 29.9rem;
-    height: 15rem;
+    width: 79vw;
   }
 
   .rote_maps {
     border-radius: 0.9rem;
     align-items: center;
     text-align: center;
-    width: 29.9rem;
+    width: 79vw;
     height: 3.2vh;
     background: #92fc57;
     z-index: 2;
@@ -72,12 +71,12 @@ export const Container = styled.div`
     }
 
     img {
-      width: 70rem;
-      height: 28rem;
+      width: 40vw;
+      height: 33vh;
     }
 
     .rote_maps {
-      width: 70rem;
+      width: 40vw;
       height: 3vh;
     }
 

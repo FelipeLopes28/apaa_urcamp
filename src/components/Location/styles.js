@@ -71,12 +71,12 @@ export const Container = styled.div`
     }
 
     img {
-      width: 40vw;
+      width: 97%;
       height: 33vh;
     }
 
     .rote_maps {
-      width: 40vw;
+      width: 94.4%;
       height: 3vh;
     }
 

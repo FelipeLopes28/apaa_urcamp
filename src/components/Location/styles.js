@@ -30,7 +30,7 @@ export const Container = styled.div`
     align-items: center;
     text-align: center;
     width: 89.5%;
-    height: 3.2vh;
+    height: 3.1vh;
     background: #92fc57;
     z-index: 2;
     margin-top: -2.3rem;

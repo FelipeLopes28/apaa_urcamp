@@ -4,7 +4,7 @@
   margin-top: 15rem;
   bottom: 0;
   border-top-left-radius: 3rem;
-  border-top-right-radius: 3rem; 
+  border-top-right-radius: 3rem;
   background: #2D9CDB;
 
   position: relative;
@@ -22,20 +22,20 @@ body{
   padding: 0rem 2rem;
 }
 
-.footer .LogoUrcamp{
-  align-items: center;    
+.footer .LogoUrcamp {
+  align-items: center;
   width: 19.4rem;
   height: 7rem;
 }
 
-.footer .LogoSI{
+.footer .LogoSI {
   align-items: center;
   margin-top: 0.3rem;
   width: 10rem;
   height: 10.4rem;
 }
 
-@media (min-width: 700px){
+@media (min-width: 700px) {
   .footer strong{
     padding: 0rem 10rem;
   }

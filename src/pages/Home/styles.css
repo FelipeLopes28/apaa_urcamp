@@ -1,28 +1,28 @@
 #page-home {
-    width: 100vw;
-    height: 100vh;
-    background: #7EC9F3;
+  width: 100vw;
+  height: 100vh;
+  background: #7ec9f3;
 }
 
-#page-home main {    
-    margin: 3.2rem auto;
-    width: 90%;
+#page-home main {
+  margin: 3.2rem auto;
+  width: 90%;
 }
 
-.box-item header div strong .title{
-    font: 400 4rem Acme;
-    color: #FDEF;
+.box-item header div strong .title {
+  font: 400 4rem Acme;
+  color: #fdef;
+}
+
+@media (min-width: 700px) {
+  #page-home {
+    max-width: 100%;
+    background: #7ec9f3;
   }
 
-@media (min-width: 700px){
-    #page-home{
-        max-width: 100%;
-        background: #7EC9F3;
-    }
-
-    #page-home main{
-        padding: 3.2rem 0;
-        max-width: 740px;
-        margin: 2 auto;
-    } 
+  #page-home main {
+    padding: 3.2rem 0;
+    max-width: 740px;
+    margin: 2 auto;
+  }
 }

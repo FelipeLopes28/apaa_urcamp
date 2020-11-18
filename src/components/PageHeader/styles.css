@@ -12,7 +12,6 @@
   align-items: center;
   padding: 0.4rem 0;
   background-color: #31ADF3;
-  
 }
 
 .page-header .top-bar-container a {
@@ -25,18 +24,18 @@
   justify-content: center;
 }
 
-.page-header .top-bar-container a img{
+.page-header .top-bar-container a img {
   height: 1.8rem;
   margin-right: 0.5rem;
 }
 
-.page-header .top-bar-container .social-networks{
+.page-header .top-bar-container .social-networks {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.page-header .top-bar-container .social-networks .insta{
+.page-header .top-bar-container .social-networks .insta {
   margin-left: 0rem;
 }
 
@@ -50,7 +49,7 @@
   display: flex;
   position: relative;
   margin: 0rem auto;
-  background-color: #2D9CDB;    
+  background-color: #2D9CDB;
 }
 
 .page-header .header-content strong {
@@ -69,7 +68,7 @@
   margin-top: 1rem;
 }
 
-.page-header .header-content .letreiro{
+.page-header .header-content .letreiro {
   width: 22rem;
 }
 
@@ -78,7 +77,7 @@
   align-items: center;
 }
 
-.buttons-container {  
+.buttons-container {
   width: 100%;
   margin: 0 auto;
 
@@ -94,12 +93,12 @@
   background-color: #2D9CDB;
 }
 
-.buttons-container a {    
+.buttons-container a {
   text-decoration: none;
   border-radius: 0.5rem;
   font: 400 3.0rem Acme;
   padding: 0 1rem;
-  
+
   display: flex;
   align-items: center;
 }
@@ -152,20 +151,20 @@
   background: #B61C0B;
 }
 
-@media (min-width: 700px){
+@media (min-width: 700px) {
   .page-header{
     height: 200px;
   }
 
-  .page-header .top-bar-container{
+  .page-header .top-bar-container {
     max-width: 100%;
   }
 
-  .page-header .top-bar-container .social-networks{
+  .page-header .top-bar-container .social-networks {
     margin-left: 40rem;
   }
 
-  .page-header .header-content{
+  .page-header .header-content {
     flex: 1;
     max-width: 100%;
     margin: 0 auto;
@@ -184,7 +183,7 @@
     margin-top: 1rem;
   }
 
-  .page-header .header-content .letreiro{
+  .page-header .header-content .letreiro {
     width: 40rem;
   }
 
@@ -197,9 +196,7 @@
     align-items: center;
   }
 
-  
-
-  .buttons-container{
+  .buttons-container {
     justify-content: center;
   }
 
@@ -209,5 +206,5 @@
     height: 4rem;
   }
 
-  
+
 }

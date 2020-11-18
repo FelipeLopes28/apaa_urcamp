@@ -6,17 +6,17 @@
   overflow: hidden;
 }
 
-.box-item header{
+.box-item header {
   padding: 0rem 2rem;
   display: flex;
 }
 
-.box-item header div strong{
+.box-item header div strong {
   font: 400 4rem Acme;
   color: #FDEF3E;
 }
 
-.box-item p{
+.box-item p {
   text-align: justify;
   padding: 0rem 2rem 0rem 2rem;
   font: 400 1.6rem Acme;
@@ -24,7 +24,7 @@
 }
 
 
-@media (min-width: 700px){
+@media (min-width: 700px) {
   .box-item p{
     font: 400 1.8rem Acme;
     margin-bottom: 1rem;

@@ -9,6 +9,7 @@ function Landing() {
   return (
     <Container>
       <div className="first-line">
+
         <div className="text">
           <h1>A.P.A.A</h1>
           <h4>Associação de Pais e Amigos dos Autistas</h4>
@@ -17,6 +18,7 @@ function Landing() {
 
         <img src={logoImg} alt="Logo APAA" />
       </div>
+
       <button>
         <Link to={"/home"}>
           Acessar Site

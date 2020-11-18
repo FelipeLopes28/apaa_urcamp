@@ -13,10 +13,12 @@ function PageHeader() {
   return (
     <header className="page-header">
       <div className="top-bar-container">
+
         <Link to="/contact">
           <img src={imgEmail} alt="Contato" />
           apaadp@gmail.com
         </Link>
+
         <div className="social-networks">
           <a
             target="_blank"
@@ -25,6 +27,7 @@ function PageHeader() {
           >
             <img src={imgFacebook} alt="Facebook" className="face" />
           </a>
+
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -41,6 +44,7 @@ function PageHeader() {
           <img src={logoSlogan} alt="Logo" className="logo" />
         </strong>
       </div>
+
       <div className="buttons-container">
         <Link to="/home" className="home">
           Home
@@ -52,6 +56,7 @@ function PageHeader() {
           Contato
         </Link>
       </div>
+
     </header>
   );
 }

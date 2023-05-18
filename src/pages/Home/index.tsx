@@ -23,8 +23,7 @@ function Home() {
             paragraph2="&nbsp;&nbsp;&nbsp;&nbsp;No decorrer dos meses a APAA foi crescendo, seguimos com nossas reuniões,
               que acontecem em locais cedidos pela prefeitura, encontrando mais famílias com autismo,
               a cada nova reunião chegava uma nova mãe e assim gradativamente ganhamos mais força e determinação
-              para montarmos uma Associação que representasse nossa luta diária com nossos filhos. Hoje a APAA tem
-                43 famílias cadastradas."
+              para montarmos uma Associação que representasse nossa luta diária com nossos filhos. Hoje na APAA são atendidos 79 pessoas na associação."
 
             paragraph3="&nbsp;&nbsp;&nbsp;&nbsp;O principal motivo de se formar a APAA foi a falta de uma entidade  apropriada
               para tratar especificamente dos portadores de TEA pois este influencia significamente a vida das crianças
